@@ -19,6 +19,7 @@
     "scripts"
   ],
   "angularCompilerOptions": {
-    "genDir": "aot"
+    "genDir": "aot",
+    "types": ["node"]
   }
 }

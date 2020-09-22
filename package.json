@@ -1,9 +1,7 @@
 {
   "name": "br-mask",
-  "version": "0.0.10",
-  "description": "mascara para inputs",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
+  "version": "0.0.12",
+  "description": "Mascara para Inputs",
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf aot dist && npm run ngc",
@@ -12,23 +10,36 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amarkes/br-mask"
+    "url": "git+https://github.com/russ-ab/br-mask"
   },
   "keywords": [],
   "author": {
-        "name": "Antonio Marques",
-        "email": "tmowna@gmail.com",
-        "url" : "https://github.com/amarkes"
-    },
-    "contributors": [
-        {
-            "name": "Daniel Pereira",
-            "email": "daniel.prr.azevedo@gmail.com",
-            "url" : "https://github.com/danielprrazevedo"
-        }
-    ],
+    "name": "Antonio Marques",
+    "email": "tmowna@gmail.com",
+    "url": "https://github.com/amarkes"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Pereira",
+      "email": "daniel.prr.azevedo@gmail.com",
+      "url": "https://github.com/danielprrazevedo"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/amarkes/br-mask/issues"
+  },
+  "dependencies": {
+    "@angular/common": "~8.1.2",
+    "@angular/core": "~8.1.2",
+    "@angular/forms": "~8.1.2",
+    "rxjs": "~6.5.4"
+  },
+  "devDependencies": {
+    "@angular/compiler": "~8.1.2",
+    "@angular/compiler-cli": "~8.1.2",
+    "@types/angular": "^1.7.3",
+    "@types/node": "^14.11.2",
+    "typescript": "^3.4.5"
   }
 }
